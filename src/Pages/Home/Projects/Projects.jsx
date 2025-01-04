@@ -15,7 +15,7 @@ const Projects = () => {
                         <h1 className='text-[40px] font-bold mb-6'>Lost & Found Website</h1>
                         <p className=' leading-[1.9] text-[#878e99]'>Discover how our strategic UX/UI enhancements transformed a struggling e-commerce site into a revenue-generating powerhouse.</p>
                         <div className='mt-14'>
-                            <Link>View Details</Link>
+                            <Link to={'/project'}>View Details</Link>
                         </div>
                     </div>
                     <div  className='flex-1 bg-[#091020] flex h-full items-center rounded-e-2xl'>
@@ -27,7 +27,7 @@ const Projects = () => {
                         <h1 className='text-[40px] font-bold mb-6'>Donation on Winter Website</h1>
                         <p className=' leading-[1.9] text-[#878e99]'>Discover how our strategic UX/UI enhancements transformed a struggling e-commerce site into a revenue-generating powerhouse.</p>
                         <div className='mt-14'>
-                            <Link>View Details</Link>
+                            <Link to={'/project'}>View Details</Link>
                         </div>
                     </div>
                     <div  className='flex-1 bg-[#201209] flex h-full items-center rounded-e-2xl'>
@@ -39,7 +39,7 @@ const Projects = () => {
                         <h1 className='text-[40px] font-bold mb-6'>Fund & Donation Website</h1>
                         <p className=' leading-[1.9] text-[#878e99]'>Discover how our strategic UX/UI enhancements transformed a struggling e-commerce site into a revenue-generating powerhouse.</p>
                         <div className='mt-14'>
-                            <Link>View Details</Link>
+                            <Link to={'/project'}>View Details</Link>
                         </div>
                     </div>
                     <div  className='flex-1 bg-[#091720] flex h-full items-center rounded-e-2xl'>
