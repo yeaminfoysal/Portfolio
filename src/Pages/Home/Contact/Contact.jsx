@@ -6,11 +6,11 @@ import { FaGithub, FaLinkedin } from 'react-icons/fa';
 
 const Contact = () => {
     return (
-        <div id='contact' className='py-20 text-center w-[70%] mx-auto'>
+        <div id='contact' className='py-20 text-center w-[95%] lg:w-[70%] mx-auto'>
             <p className='color-main uppercase font-secondery'>Contact With Me</p>
             <h1 className='text-[60px] font-[700]'>Contact</h1>
-            <div className='grid grid-cols-3 text-left mt-14 gap-10'>
-                <div className='col-span-1 p-10 shadow-xl shadow-[#171717] rounded-2xl'>
+            <div className='grid grid-cols-1 lg:grid-cols-3 text-left mt-14 gap-10'>
+                <div className='lg:col-span-1 p-10 shadow-xl shadow-[#171717] rounded-2xl'>
                     <img className='rounded-2xl' src={contactImg} alt="" />
                     <h2 className='text-[30px] font-bold mt-8'>MD. Yeamin Foysal</h2>
                     <p className='my-5'>Front End Web Developer</p>
@@ -26,7 +26,7 @@ const Contact = () => {
                         </div>
                     </div>
                 </div>
-                <div className='col-span-2 flex flex-col justify-center p-10 shadow-xl shadow-[#171717] rounded-2xl gap-4'>
+                <div className='lg:col-span-2 flex flex-col justify-center p-10 shadow-xl shadow-[#171717] rounded-2xl gap-4'>
                     <div className='flex gap-6'>
                         <div className='flex-1'>
                             <h4 className='uppercase text-xs mb-4'>Your Name</h4>

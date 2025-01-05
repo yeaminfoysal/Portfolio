@@ -6,8 +6,8 @@ import { FaGithub, FaLinkedin, FaLinkedinIn } from 'react-icons/fa';
 
 const Banner = () => {
     return (
-        <div className='py-16'>
-            <div className='grid grid-cols-1 lg:grid-cols-2 items-center justify-evenly mx-auto w-[85%] bg-[#191e22]  px-[105px] rounded-2xl shadow-2xl'>
+        <div className='py-16 overflow-hidden'>
+            <div className='grid grid-cols-1 lg:grid-cols-2 items-center justify-evenly mx-auto w-[95%] lg:w-[85%] bg-[#191e22] px-[20px] py-10 lg:py-0 lg:px-[105px] rounded-2xl shadow-2xl'>
                 <div className='font-secondery'>
                     <p>Welcome to my world</p>
                     <h1 className='text-[60px] font-bold text-white'>Hi, I'm <span className='color-main'>Yeamin Foysal</span></h1>

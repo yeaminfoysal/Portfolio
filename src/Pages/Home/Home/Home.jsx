@@ -9,7 +9,7 @@ import Skill from "../Skills/Skill";
 
 const Home = () => {
     return (
-        <div className="bg-main">
+        <div className="bg-main overflow-hidden">
             <Navbar></Navbar>
             <Banner></Banner>
             <About></About>

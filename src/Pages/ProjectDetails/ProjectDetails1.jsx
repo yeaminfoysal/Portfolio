@@ -8,16 +8,16 @@ import { Link } from 'react-router-dom';
 const ProjectDetails1 = () => {
     return (
         <div className="bg-main py-20">
-            <div className='bg-[#1e2024] w-[70%] mx-auto rounded-2xl shadow-xl shadow-[#121212] p-14 relative'>
+            <div className='bg-[#1e2024] w-[95%] lg:w-[70%] mx-auto rounded-2xl shadow-xl shadow-[#121212] p-14 relative'>
                 <div>
                     <img className='rounded-2xl' src={whereisit1} alt="" />
                 </div>
-                <div className='grid grid-cols-6 gap-10 items-center my-10'>
-                    <div className='col-span-4'>
+                <div className='grid grid-cols-1 lg:grid-cols-6 gap-10 items-center my-10'>
+                    <div className='lg:col-span-4'>
                         <h1 className='text-[40px] font-bold'>WhereIsIt.</h1>
                         <p className='mt-6 leading-[1.9] text-[#878e99]'>The purpose of WhereIsIt is to provide a reliable and user-friendly platform for resolving lost and found issues efficiently. By bridging the gap between people who have lost items and those who have found them, this project aims to simplify the recovery process while offering a practical example of building a full-stack application.</p>
                     </div>
-                    <div className='col-span-2 space-y-5 '>
+                    <div className='lg:col-span-2 space-y-5 '>
                         <button className='font-secondery uppercase color-main w-full py-4  shadow-lg text-sm'>
                             <Link to={'https://whereisit-cf11d.web.app'}>Live Project</Link>
                         </button>
@@ -29,7 +29,7 @@ const ProjectDetails1 = () => {
                 <div>
                     <hr className='border-[#030303]' />
                 </div>
-                <div className='flex gap-10 items-center justify-between mt-10'>
+                <div className='flex flex-col lg:flex-row lg:justify-between gap-10 items-center mt-10'>
                     <div>
                         <h4 className='text-xl font-bold mb-6'>Features</h4>
                         <p className='leading-[1.9] text-[#878e99]'>A strategy is a general plan to achieve one or more long-term.</p>

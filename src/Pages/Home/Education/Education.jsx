@@ -2,7 +2,7 @@ import React from 'react';
 
 const Education = () => {
     return (
-        <div id='education' className='py-20 text-center w-[70%] mx-auto'>
+        <div id='education' className='py-20 text-center w-[95%] lg:w-[70%] mx-auto'>
             <p className='color-main uppercase font-secondery'>See My Education Background</p>
             <h1 className='text-[60px] font-[700]'>My Education </h1>
             <div className='text-left grid grid-cols-1 gap-16 mt-10 outline-2 outline-slate-100 outline-offset-1'>

@@ -4,7 +4,7 @@ import img from '../../../assets/png1.png'
 
 const About = () => {
     return (
-        <div id='about' className='w-[70%] mx-auto flex  justify-between items-center py-24 gap-20'>
+        <div id='about' className='w-[95%] lg:w-[70%] mx-auto flex flex-col lg:flex-row  justify-between items-center py-24 gap-20'>
             <div className='p-8 shadow-2xl rounded-2xl '>
                 <div className='bg-[#191e22] mx-auto rounded-2xl'>
                     <img className='w-[90%] mx-auto ' src={img} alt="" />
@@ -24,7 +24,9 @@ const About = () => {
                     With a mix of curiosity and determination, I’m always eager to grow and make an impact in the world of technology.
                 </p>
                 <div className='mt-16'>
-                    <Link className='color-main bg-[#1f2125] p-3 rounded-lg shadow-md'>DOWNLOAD MY CV</Link>
+                    <Link className='color-main bg-[#1f2125] p-3 rounded-lg shadow-md' to={'https://docs.google.com/document/d/1BzEW8vkONHoERDbPd8VwOaEa13PyQgABDF7cg2dph3M/edit?usp=sharing'}>
+                        DOWNLOAD MY CV
+                    </Link>
                 </div>
             </div>
         </div>
