@@ -8,7 +8,7 @@ import mongodbImg from '../../../assets/Skills/mongodb.png'
 
 const Skill = () => {
     return (
-        <div className='text-center py-20'>
+        <div id='skills' className='text-center py-20'>
             <p className='color-main uppercase font-secondery'>See my expertise</p>
             <h1 className='text-[60px] font-[700]'>My Skills </h1>
             <div className='grid grid-cols-2 md:grid-cols-3 xl:grid-cols-6 w-[70%] mx-auto items-center mt-14'>

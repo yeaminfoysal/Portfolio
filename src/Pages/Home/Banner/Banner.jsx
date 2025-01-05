@@ -2,6 +2,7 @@ import React from 'react';
 import { FiFacebook } from 'react-icons/fi';
 import { Link } from 'react-router-dom';
 import image from "../../../assets/png2.png"
+import { FaGithub, FaLinkedin, FaLinkedinIn } from 'react-icons/fa';
 
 const Banner = () => {
     return (
@@ -11,13 +12,13 @@ const Banner = () => {
                     <p>Welcome to my world</p>
                     <h1 className='text-[60px] font-bold text-white'>Hi, I'm <span className='color-main'>Yeamin Foysal</span></h1>
                     <h1 className='text-white text-[48px] font-[600]'>a <span> Front end web developer</span></h1>
-                    <p>Explore the professional journey, expertise, and achievements of a dedicated medical practitioner. Discover education, experience, clinical skills, research, and patient care .</p>
+                    <p>Hi, I’m Yeamn Foysal from Tangail, now living in Dhaka, Bangladesh. I’m an undergraduate student in Computer Science and Engineering with a deep passion for programming.</p>
                     <div className='mt-20'>
                         <p className='uppercase mb-5'>find with me</p>
                         <div className='flex gap-10'>
-                            <Link className='bg-[#1f2125] p-3 rounded-xl shadow-lg'><FiFacebook size={30} /></Link>
-                            <Link className='bg-[#1f2125] p-3 rounded-xl shadow-lg'><FiFacebook size={30} /></Link>
-                            <Link className='bg-[#1f2125] p-3 rounded-xl shadow-lg'><FiFacebook size={30} /></Link>
+                            <Link to={'https://www.facebook.com/ariyan.yeamin.1/'} className='bg-[#1f2125] p-3 rounded-xl shadow-lg'><FiFacebook size={30} /></Link>
+                            <Link to={'https://github.com/ariyanyeamin14'} className='bg-[#1f2125] p-3 rounded-xl shadow-lg'><FaGithub size={30}/></Link>
+                            <Link to={'https://bd.linkedin.com/'} className='bg-[#1f2125] p-3 rounded-xl shadow-lg'><FaLinkedin size={30} /></Link>
                         </div>
                     </div>
                 </div>

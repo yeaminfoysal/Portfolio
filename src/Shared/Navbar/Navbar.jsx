@@ -1,10 +1,14 @@
-import { NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 import passportImg from '../../../src/assets/passport.png'
 
 const Navbar = () => {
     const links = <>
-        <li> <NavLink to={'/home'}>Home</NavLink> </li>
-        <li> <NavLink to={'/About'}>About</NavLink> </li>
+        <li> <a href={'/'}>Home</a> </li>
+        <li> <a href="#about">About</a> </li>
+        <li> <a href={'#skills'}>Skills</a></li>
+        <li> <a href={'#education'}>Education</a></li>
+        <li> <a href={'#projects'}>Projects</a></li>
+        <li> <a href={'#contact'}>Contact</a></li>
     </>
     return (
         <div className="navbar bg-main">
@@ -18,7 +22,11 @@ const Navbar = () => {
                 </ul>
             </div>
             <div className="navbar-end">
-                <button className="bg-[#191b1f] color-main rounded-xl px-4 py-2">Download Resume</button>
+                <button className="bg-[#191b1f] color-main rounded-xl px-4 py-2">
+                    <Link to={'https://docs.google.com/document/d/1BzEW8vkONHoERDbPd8VwOaEa13PyQgABDF7cg2dph3M/edit?usp=sharing'}>
+                        Download Resume
+                    </Link>
+                </button>
             </div>
         </div>
     );

@@ -2,10 +2,11 @@ import React from 'react';
 import contactImg from '../../../assets/Contact/contact1.png'
 import { Link } from 'react-router-dom';
 import { FiFacebook } from 'react-icons/fi';
+import { FaGithub, FaLinkedin } from 'react-icons/fa';
 
 const Contact = () => {
     return (
-        <div className='py-20 text-center w-[70%] mx-auto'>
+        <div id='contact' className='py-20 text-center w-[70%] mx-auto'>
             <p className='color-main uppercase font-secondery'>Contact With Me</p>
             <h1 className='text-[60px] font-[700]'>Contact</h1>
             <div className='grid grid-cols-3 text-left mt-14 gap-10'>
@@ -14,14 +15,14 @@ const Contact = () => {
                     <h2 className='text-[30px] font-bold mt-8'>MD. Yeamin Foysal</h2>
                     <p className='my-5'>Front End Web Developer</p>
                     <p className='leading-[1.9] text-[#878e99] mb-5'>I am available for freelance work. Connect with me via and call in to my account.</p>
-                    <p className='text-[#878e99]'>Phone: +012 345 678 90 </p>
-                    <p className='text-[#878e99]'>Email: admin@example.com</p>
+                    <p className='text-[#878e99]'>Phone: +880 1609800359 </p>
+                    <p className='text-[#878e99]'>Email: yeaminfoysal14@gmail.com</p>
                     <div className='mt-10'>
                         <p className='uppercase mb-5'>find with me</p>
                         <div className='flex gap-10'>
-                            <Link className='bg-[#1f2125] p-3 rounded-xl shadow-lg'><FiFacebook size={30} /></Link>
-                            <Link className='bg-[#1f2125] p-3 rounded-xl shadow-lg'><FiFacebook size={30} /></Link>
-                            <Link className='bg-[#1f2125] p-3 rounded-xl shadow-lg'><FiFacebook size={30} /></Link>
+                            <Link to={'https://www.facebook.com/ariyan.yeamin.1/'} className='bg-[#1f2125] p-3 rounded-xl shadow-lg'><FiFacebook size={30} /></Link>
+                            <Link to={'https://github.com/ariyanyeamin14'} className='bg-[#1f2125] p-3 rounded-xl shadow-lg'><FaGithub size={30} /></Link>
+                            <Link to={'https://bd.linkedin.com/'} className='bg-[#1f2125] p-3 rounded-xl shadow-lg'><FaLinkedin size={30} /></Link>
                         </div>
                     </div>
                 </div>
