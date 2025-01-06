@@ -6,7 +6,7 @@ import wintercherity from '../../../assets/Projects/wintercherity.png'
 
 const Projects = () => {
     return (
-        <div id='projects' className='py-20 text-center w-[95%] lg:w-[70%] mx-auto'>
+        <div id='projects' className='section py-20 text-center w-[95%] lg:w-[70%] mx-auto'>
             <p className='color-main uppercase font-secondery'>Here is a sample of projects I've worked on.</p>
             <h1 className='text-[60px] font-[700]'>Selected projects</h1>
             <div className='flex flex-col mt-10 gap-16'>
