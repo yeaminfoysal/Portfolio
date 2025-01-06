@@ -4,7 +4,7 @@ import img from '../../../assets/png1.png'
 
 const About = () => {
     return (
-        <div id='about'  className='section w-[95%] lg:w-[70%] mx-auto flex flex-col lg:flex-row  justify-between items-center py-24 gap-20'>
+        <div id='about' className='section w-[95%] lg:w-[70%] mx-auto flex flex-col lg:flex-row  justify-between items-center py-24 gap-20'>
             <div className='p-8 shadow-2xl rounded-2xl '>
                 <div className='bg-[#191e22] mx-auto rounded-2xl'>
                     <img className='w-[90%] mx-auto ' src={img} alt="" />

@@ -17,7 +17,7 @@ const Banner = () => {
                         <p className='uppercase mb-5'>find with me</p>
                         <div className='flex gap-10'>
                             <Link to={'https://www.facebook.com/ariyan.yeamin.1/'} className='bg-[#1f2125] p-3 rounded-xl shadow-lg'><FiFacebook size={30} /></Link>
-                            <Link to={'https://github.com/ariyanyeamin14'} className='bg-[#1f2125] p-3 rounded-xl shadow-lg'><FaGithub size={30}/></Link>
+                            <Link to={'https://github.com/ariyanyeamin14'} className='bg-[#1f2125] p-3 rounded-xl shadow-lg'><FaGithub size={30} /></Link>
                             <Link to={'https://bd.linkedin.com/'} className='bg-[#1f2125] p-3 rounded-xl shadow-lg'><FaLinkedin size={30} /></Link>
                         </div>
                     </div>
