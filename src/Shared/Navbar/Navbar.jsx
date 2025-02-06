@@ -15,7 +15,7 @@ const Navbar = () => {
         <div className="fixed top-0 w-full bg-main">
             <div className=" navbar bg-main w-[80%]  mx-auto">
                 <div className="navbar-start gap-2">
-                    <div className="border-2 border-gray-700 rounded-full p-2"><img className="w-[40px]" src={passportImg} alt="" /></div>
+                    <div className="border-2 border-gray-700 rounded-full"><img className="w-[40px] rounded-full" src={passportImg} alt="" /></div>
                     <div><p className="font-medium text-xl font-secondey">YEAMIN</p></div>
                 </div>
                 <div className="navbar-center hidden lg:flex">
@@ -25,7 +25,7 @@ const Navbar = () => {
                 </div>
                 <div className="navbar-end">
                     <button className="bg-btn">
-                        <a href={'https://drive.google.com/file/d/1sN0fFgqUcqOY5BG_gDNleY-6sZIArijV/view?usp=sharing'}>
+                        <a target='_blank' href={'https://drive.google.com/file/d/1sN0fFgqUcqOY5BG_gDNleY-6sZIArijV/view?usp=sharing'}>
                             Download Resume
                         </a>
                     </button>

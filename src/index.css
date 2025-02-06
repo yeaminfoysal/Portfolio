@@ -59,3 +59,14 @@ h1, h2, h3, h4, h5{
   padding: 10px 25px;
   border-radius: 30px;
 }
+:not(pre) > code[class*="language-"], pre[class*="language-"] {
+  background: #050709 !important;
+}
+pre[class*="language-"] {
+  padding: 1em;
+  margin: .05em 0 !important;
+}
+
+.max-w-2xl{
+  box-shadow: 0px 0px 15px 1px #864ff5bb;
+}
