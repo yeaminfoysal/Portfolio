@@ -14,20 +14,48 @@
 
 body{
   font-family: "Poppins", serif;
-  color: #c4cfde;
+  color: #ffffff;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  scrollbar-width: thin;
+  scrollbar-color: #8750f7 #2a1454 !important;
 }
 h1, h2, h3, h4, h5{
   font-family: "Montserrat", serif;
 }
 
 .color-main{
-  color: #ff014f;
+  color: #8851f7;
+}
+
+.color-gradient{
+  background: linear-gradient(90deg, #8851f7, #fdfdfe);
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.color-desc{
+  color: #e5efff
 }
 
 .bg-main{
-  background-color: #212428
+  background-color: #050709 
 }
+
+.bg-secondery{
+  background-color: #0f0715;
+}
+
 .active {
-  color: #ff014f !important;
-  background-color: #212428 !important;
+  color: #8751f7 !important;
+  background-color: #060606 !important;
+}
+
+.bg-btn{
+  background: linear-gradient(90deg, #864ff5, #2a1454)!important;
+  padding: 10px 25px;
+  border-radius: 30px;
 }

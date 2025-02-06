@@ -1,4 +1,5 @@
-import { Link } from "react-scroll";
+
+import { Link } from 'react-scroll';
 import passportImg from '../../../src/assets/passport.png'
 
 const Navbar = () => {
@@ -11,7 +12,7 @@ const Navbar = () => {
         <li> <Link activeClass="active" to="contact" spy={true} smooth={true} offset={-50} duration={500}>Contact</Link></li>
     </>
     return (
-        <div className="fixed top-0 w-full bg-[#212428]">
+        <div className="fixed top-0 w-full bg-main">
             <div className=" navbar bg-main w-[80%]  mx-auto">
                 <div className="navbar-start gap-2">
                     <div className="border-2 border-gray-700 rounded-full p-2"><img className="w-[40px]" src={passportImg} alt="" /></div>
@@ -23,10 +24,10 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <div className="navbar-end">
-                    <button className="bg-[#191b1f] color-main rounded-xl px-4 py-2">
-                        <Link to={'https://docs.google.com/document/d/1BzEW8vkONHoERDbPd8VwOaEa13PyQgABDF7cg2dph3M/edit?usp=sharing'}>
+                    <button className="bg-btn">
+                        <a href={'https://drive.google.com/file/d/1sN0fFgqUcqOY5BG_gDNleY-6sZIArijV/view?usp=sharing'}>
                             Download Resume
-                        </Link>
+                        </a>
                     </button>
                 </div>
             </div>
