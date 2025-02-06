@@ -67,6 +67,10 @@ pre[class*="language-"] {
   margin: .05em 0 !important;
 }
 
-.max-w-2xl{
+.max-w-2xl, .shadow-box{
   box-shadow: 0px 0px 15px 1px #864ff5bb;
+}
+
+.border-main{
+  border-color: #8851f7;
 }

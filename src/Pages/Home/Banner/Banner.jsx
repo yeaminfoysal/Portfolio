@@ -1,8 +1,7 @@
 import React from 'react';
 import { FiFacebook } from 'react-icons/fi';
 import { Link } from 'react-router-dom';
-import image from "../../../assets/png2.png"
-import { FaGithub, FaLinkedin, FaLinkedinIn } from 'react-icons/fa';
+import { FaGithub, FaLinkedin } from 'react-icons/fa';
 import { useEffect } from "react";
 import "prismjs";
 import "prismjs/components/prism-javascript";
@@ -33,7 +32,7 @@ const Banner = () => {
     };`;
 
     return (
-        <div id="home" className='section py-24 overflow-hidden'>
+        <div id="home" className='section py-28 overflow-hidden'>
             <div className='flex flex-col xl:flex-row items-center justify-evenly mx-auto w-[95%] 2xl:w-[85%] bg-secondery px-[30px] py-10 md:py-20 md:px-[45px] lg:px-[55px] xl:px-[50px] 2xl:px-[105px] rounded-2xl shadow-2xl gap-10 '>
                 <div className='font-secondery'>
                     <h1 className='text-[40px] md:text-[50px] 2xl:text-[55px] font-bold text-white mb-4 md:mb-6'>Hi, I'm <span className='color-gradient'>Yeamin Foysal</span></h1>
