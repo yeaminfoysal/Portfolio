@@ -59,6 +59,7 @@ h1, h2, h3, h4, h5{
   padding: 10px 25px;
   border-radius: 30px;
 }
+
 :not(pre) > code[class*="language-"], pre[class*="language-"] {
   background: #050709 !important;
 }
@@ -73,4 +74,8 @@ pre[class*="language-"] {
 
 .border-main{
   border-color: #8851f7;
+}
+
+.mx-auto.items-right.sniped-box {
+  margin: 0 !important;
 }

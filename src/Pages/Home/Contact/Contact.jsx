@@ -50,9 +50,9 @@ const Contact = () => {
                     <div className='mt-10'>
                         <p className='uppercase mb-5'>find with me</p>
                         <div className='flex gap-10'>
-                            <Link to={'https://www.facebook.com/ariyan.yeamin.1/'} className='bg-main p-3 rounded-xl shadow-lg color-main'><FiFacebook size={30} /></Link>
                             <Link to={'https://github.com/ariyanyeamin14'} className='bg-main p-3 rounded-xl shadow-lg color-main'><FaGithub size={30} /></Link>
                             <Link to={'https://bd.linkedin.com/'} className='bg-main p-3 rounded-xl shadow-lg color-main'><FaLinkedin size={30} /></Link>
+                            <Link to={'https://www.facebook.com/ariyan.yeamin.1/'} className='bg-main p-3 rounded-xl shadow-lg color-main'><FiFacebook size={30} /></Link>
                         </div>
                     </div>
                 </div>
@@ -61,27 +61,27 @@ const Contact = () => {
                         <div className='flex gap-6'>
                             <div className='flex-1'>
                                 <h4 className='uppercase text-xs mb-4'>Your Name</h4>
-                                <input className='bg-main p-3 w-full rounded-md border border-[#2a2a2a] shadow-inner shadow-[#111111] focus:border-[#8751f7] focus:outline-none ' type="text" name="name" id="" required/>
+                                <input className='bg-main p-3 w-full rounded-md border border-[#2a2a2a] shadow-inner shadow-[#111111] focus:border-[#8751f7] focus:outline-none ' type="text" name="name" id="" required />
                             </div>
                             <div className='flex-1'>
                                 <h4 className='uppercase text-xs mb-4'>Phone Number</h4>
-                                <input className='bg-main p-3 w-full rounded-md border border-[#2a2a2a] shadow-inner shadow-[#111111] focus:border-[#8751f7] focus:outline-none ' type="number" name="phone" id="" required/>
+                                <input className='bg-main p-3 w-full rounded-md border border-[#2a2a2a] shadow-inner shadow-[#111111] focus:border-[#8751f7] focus:outline-none ' type="number" name="phone" id="" required />
                             </div>
                         </div>
                         <div className=''>
                             <h4 className='uppercase text-xs mb-4'>Email</h4>
-                            <input className='bg-main p-3 w-full rounded-md border border-[#2a2a2a] shadow-inner shadow-[#111111] focus:border-[#8751f7] focus:outline-none ' type="email" name="email" id="" required/>
+                            <input className='bg-main p-3 w-full rounded-md border border-[#2a2a2a] shadow-inner shadow-[#111111] focus:border-[#8751f7] focus:outline-none ' type="email" name="email" id="" required />
                         </div>
                         <div className=''>
                             <h4 className='uppercase text-xs mb-4'>Subject</h4>
-                            <input className='bg-main p-3 w-full rounded-md border border-[#2a2a2a] shadow-inner shadow-[#111111] focus:border-[#8751f7] focus:outline-none ' type="text" name="subject" id="" required/>
+                            <input className='bg-main p-3 w-full rounded-md border border-[#2a2a2a] shadow-inner shadow-[#111111] focus:border-[#8751f7] focus:outline-none ' type="text" name="subject" id="" required />
                         </div>
                         <div className=''>
                             <h4 className='uppercase text-xs mb-4'>Your Message</h4>
                             <textarea className='bg-main p-3 w-full rounded-md border border-[#2a2a2a] shadow-inner shadow-[#111111] focus:border-[#8751f7] focus:outline-none ' name="message" id="" cols="30" rows="10" required></textarea>
                         </div>
                         <div>
-                            <input className='uppercase cursor-pointer bg-btn w-full shadow-[#000000] shadow-md' type="submit" value="Send Message"/>
+                            <input className='uppercase cursor-pointer bg-btn w-full shadow-[#000000] shadow-md' type="submit" value="Send Message" />
                         </div>
                     </form>
                     {message && <p className="text-center text-green-500">{message}</p>}

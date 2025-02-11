@@ -24,8 +24,8 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <div className="navbar-end">
-                    <button className="bg-btn text-sm">
-                        <a target='_blank' href={'https://drive.google.com/file/d/1sN0fFgqUcqOY5BG_gDNleY-6sZIArijV/view?usp=sharing'}>
+                    <button className="py-2 px-[10px] md:py-[10px] md:px-[25px] bg-gradient-to-r from-[#864ff5] to-[#2a1454] text-xs rounded-[30px]">
+                        <a target='_blank' className='text-sm' href={'https://drive.google.com/file/d/1sN0fFgqUcqOY5BG_gDNleY-6sZIArijV/view?usp=sharing'}>
                             Download Resume
                         </a>
                     </button>
