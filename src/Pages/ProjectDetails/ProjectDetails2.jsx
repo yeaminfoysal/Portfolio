@@ -5,6 +5,24 @@ import { Link } from 'react-router-dom';
 
 
 const ProjectDetails2 = () => {
+    const technologies = [
+        {
+            type: 'Front-End',
+            tech: ['HTML', 'CSS', 'TailwindCSS', 'Javascript', 'React.js']
+        },
+        {
+            type: 'Back-End',
+            tech: ['Node.js', 'Express.js']
+        },
+        {
+            type: 'Authentication',
+            tech: ['Firebase', 'JWT (JSON Web Token)']
+        },
+        {
+            type: 'Databse',
+            tech: ['MongoDB']
+        }
+    ]
     return (
         <div className="bg-main py-20">
             <div className='bg-secondery w-[95%] lg:w-[70%] mx-auto rounded-2xl shadow-xl shadow-[#000000] p-14 relative'>
@@ -39,12 +57,14 @@ const ProjectDetails2 = () => {
                         </ul>
                     </div>
                     <div>
-                        <h4 className='text-xl font-bold mb-6'>Features</h4>
-                        <p className='leading-[1.9] color-desc'>A strategy is a general plan to achieve one or more long-term.</p>
+                        <h4 className='text-xl font-bold mb-6'>Technologies</h4>
+                        <p className='leading-[1.9] color-desc'>Technologies I have used on this project are:</p>
                         <ul className='mt-6 leading-[1.9] color-desc list-inside list-disc space-y-3'>
-                            <li>The Design Approach</li>
-                            <li>Project Challenge</li>
-                            <li>The Solution</li>
+                            {
+                                technologies.map(type => (
+                                    <li className='font-semibold'>{type.type}: {type.tech.map(t => <p key={t} className='inline font-normal' >{t}, </p>)} </li>
+                                ))
+                            }
                         </ul>
                     </div>
                 </div>
