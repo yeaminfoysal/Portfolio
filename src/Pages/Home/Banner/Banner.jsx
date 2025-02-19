@@ -41,7 +41,7 @@ const Banner = () => {
                     <div className='mt-10 md:mt-20'>
                         <p className='uppercase mb-5'>find with me</p>
                         <div className='flex gap-10'>
-                            <Link to={'https://github.com/ariyanyeamin14'} className='bg-[#020700] p-3 rounded-xl shadow-lg'><FaGithub size={30} color='#8851f7' /></Link>
+                            <Link to={'https://github.com/yeaminfoysal'} className='bg-[#020700] p-3 rounded-xl shadow-lg'><FaGithub size={30} color='#8851f7' /></Link>
                             <Link to={'https://www.linkedin.com/in/yeamin-foysal'} className='bg-[#020700] p-3 rounded-xl shadow-lg'><FaLinkedin size={30} color='#8851f7' /></Link>
                             <Link to={'https://www.facebook.com/ariyan.yeamin.1/'} className='bg-[#020700] p-3 rounded-xl shadow-lg'><FiFacebook size={30} color='#8851f7' /></Link>
                         </div>

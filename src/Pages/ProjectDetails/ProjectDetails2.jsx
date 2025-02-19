@@ -22,6 +22,29 @@ const ProjectDetails2 = () => {
             type: 'Databse',
             tech: ['MongoDB']
         }
+    ];
+
+    const features = [
+        {
+            id: 1,
+            type: 'Role-based Access',
+            desc: 'Distinct user roles—Student, Teacher, and Admin.'
+        },
+        {
+            id: 2,
+            type: 'Secure Payments',
+            desc: 'Stripe integration for handling payments efficiently.'
+        },
+        {
+            id: 3,
+            type: 'Real-Time Notifications',
+            desc: 'Alerts and feedback powered by SweetAlert2.'
+        },
+        {
+            id: 4,
+            type: 'Fully Responsive',
+            desc: 'Optimized for mobile, tablet, and desktop devices.'
+        }
     ]
     return (
         <div className="bg-main py-20">
@@ -39,7 +62,7 @@ const ProjectDetails2 = () => {
                             <a target='_blank' href={'https://eduhaven-14.web.app/'}>Live Project</a>
                         </button>
                         <button className='font-secondery uppercase bg-btn w-full  shadow-lg text-sm'>
-                            <a target='_blank' href={'https://github.com/ariyanyeamin14/EduHaven-ClientSide'}>Github Repository</a>
+                            <a target='_blank' href={'https://github.com/yeaminfoysal/EduHaven-ClientSide'}>Github Repository</a>
                         </button>
                     </div>
                 </div>
@@ -49,11 +72,13 @@ const ProjectDetails2 = () => {
                 <div className='flex gap-10 items-center flex-col lg:flex-row lg:justify-between mt-10'>
                     <div>
                         <h4 className='text-xl font-bold mb-6'>Features</h4>
-                        <p className='leading-[1.9] color-desc'>A strategy is a general plan to achieve one or more long-term.</p>
+                        <p className='leading-[1.9] color-desc'>Features of this website are shortly described:</p>
                         <ul className='mt-6 leading-[1.9] color-desc list-inside list-disc space-y-3'>
-                            <li>The Design Approach</li>
-                            <li>Project Challenge</li>
-                            <li>The Solution</li>
+                            {
+                                features.map(feature => (
+                                    <li className='font-semibold'>{feature.type}: <p key={feature.id} className='inline font-normal pl-1' >{feature.desc}</p></li>
+                                ))
+                            }
                         </ul>
                     </div>
                     <div>

@@ -24,6 +24,13 @@ const ProjectDetails1 = () => {
             tech: ['MongoDB']
         }
     ]
+
+    const features = [
+        { id: 1, type: 'Report Lost Items', desc: 'Report lost belongings with details and images.' },
+        { id: 2, type: 'Browse Found Items', desc: 'Search a database of found items.' },
+        { id: 3, type: 'Interactive Features', desc: 'Communicate securely to recover items.' },
+        { id: 4, type: 'File Uploads', desc: 'Upload images for visual reference.' }
+    ]
     return (
         <div className="bg-main py-20">
             <div className='bg-secondery w-[95%] lg:w-[70%] mx-auto rounded-2xl shadow-xl shadow-[#000000] p-14 relative'>
@@ -40,7 +47,7 @@ const ProjectDetails1 = () => {
                             <Link to={'https://whereisit-cf11d.web.app'}>Live Project</Link>
                         </button>
                         <button className='font-secondery uppercase bg-btn w-full shadow-lg text-sm'>
-                            <Link to={'https://github.com/programming-hero-web-course2/b10a11-client-side-ariyanyeamin14'}>Github Repository</Link>
+                            <Link to={'https://github.com/yeaminfoysal/WhereIsIt-ClientSide'}>Github Repository</Link>
                         </button>
                     </div>
                 </div>
@@ -50,11 +57,13 @@ const ProjectDetails1 = () => {
                 <div className='flex flex-col lg:flex-row lg:justify-between gap-10 items-center mt-10'>
                     <div>
                         <h4 className='text-xl font-bold mb-6'>Features</h4>
-                        <p className='leading-[1.9] color-desc'>A strategy is a general plan to achieve one or more long-term.</p>
+                        <p className='leading-[1.9] color-desc'>Features of this website are shortly described:</p>
                         <ul className='mt-6 leading-[1.9] color-desc list-inside list-disc space-y-3'>
-                            <li>The Design Approach</li>
-                            <li>Project Challenge</li>
-                            <li>The Solution</li>
+                            {
+                                features.map(feature => (
+                                    <li className='font-semibold'>{feature.type}: <p key={feature.id} className='inline font-normal pl-1' >{feature.desc}</p></li>
+                                ))
+                            }
                         </ul>
                     </div>
                     <div>
@@ -63,8 +72,8 @@ const ProjectDetails1 = () => {
                         <ul className='mt-6 leading-[1.9] color-desc list-inside list-disc space-y-3'>
                             {
                                 technologies.map(type => (
-                                    <li className='font-semibold'>{type.type}: {type.tech.map(t => <p key={t} className='inline font-normal' >{t}, </p> )} </li>
-                                ) )
+                                    <li className='font-semibold'>{type.type}: {type.tech.map(t => <p key={t} className='inline font-normal' >{t}, </p>)} </li>
+                                ))
                             }
                         </ul>
                     </div>

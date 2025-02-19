@@ -22,7 +22,15 @@ const ProjectDetails3 = () => {
             type: 'Databse',
             tech: ['MongoDB']
         }
+    ];
+
+    const features = [
+        { id: 1, type: 'Database Integration', desc: 'Data stored and managed efficiently with MongoDB.' },
+        { id: 2, type: 'Scroll-Based Effects', desc: 'Implemented scroll-triggered animations.' },
+        { id: 3, type: 'User Authentication', desc: 'Secure authentication implemented using Firebase.' },
+        { id: 4, type: 'Local Storage', desc: 'Offline support and persistent data with localforage.' }
     ]
+
     return (
         <div className="bg-main py-20">
             <div className='bg-secondery w-[95%] lg:w-[70%] mx-auto rounded-2xl shadow-xl shadow-[#000000] p-14 relative'>
@@ -39,7 +47,7 @@ const ProjectDetails3 = () => {
                             <Link to={'https://fundbridge-6d21f.web.app/'}>Live Project</Link>
                         </button>
                         <button className='font-secondery uppercase bg-btn w-full  shadow-lg text-sm'>
-                            <Link to={'https://github.com/programming-hero-web-course2/b10-a10-client-side-ariyanyeamin14'}>Github Repository</Link>
+                            <Link to={'https://github.com/yeaminfoysal/FundBridge-ClientSide'}>Github Repository</Link>
                         </button>
                     </div>
                 </div>
@@ -49,11 +57,13 @@ const ProjectDetails3 = () => {
                 <div className='flex gap-10 items-center flex-col lg:flex-row lg:justify-between mt-10'>
                     <div>
                         <h4 className='text-xl font-bold mb-6'>Features</h4>
-                        <p className='leading-[1.9] color-desc'>A strategy is a general plan to achieve one or more long-term.</p>
+                        <p className='leading-[1.9] color-desc'>Features of this website are shortly described:</p>
                         <ul className='mt-6 leading-[1.9] color-desc list-inside list-disc space-y-3'>
-                            <li>The Design Approach</li>
-                            <li>Project Challenge</li>
-                            <li>The Solution</li>
+                            {
+                                features.map(feature => (
+                                    <li className='font-semibold'>{feature.type}: <p key={feature.id} className='inline font-normal pl-1' >{feature.desc}</p></li>
+                                ))
+                            }
                         </ul>
                     </div>
                     <div>

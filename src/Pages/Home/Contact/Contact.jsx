@@ -50,8 +50,8 @@ const Contact = () => {
                     <div className='mt-10'>
                         <p className='uppercase mb-5'>find with me</p>
                         <div className='flex gap-10'>
-                            <Link to={'https://github.com/ariyanyeamin14'} className='bg-main p-3 rounded-xl shadow-lg color-main'><FaGithub size={30} /></Link>
-                            <Link to={'https://bd.linkedin.com/'} className='bg-main p-3 rounded-xl shadow-lg color-main'><FaLinkedin size={30} /></Link>
+                            <Link to={'https://github.com/yeaminfoysal'} className='bg-main p-3 rounded-xl shadow-lg color-main'><FaGithub size={30} /></Link>
+                            <Link to={'https://www.linkedin.com/in/yeamin-foysal'} className='bg-main p-3 rounded-xl shadow-lg color-main'><FaLinkedin size={30} /></Link>
                             <Link to={'https://www.facebook.com/ariyan.yeamin.1/'} className='bg-main p-3 rounded-xl shadow-lg color-main'><FiFacebook size={30} /></Link>
                         </div>
                     </div>
