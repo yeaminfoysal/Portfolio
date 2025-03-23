@@ -33,7 +33,7 @@ const Banner = () => {
 
     return (
         <div id="home" className='section py-28 overflow-hidden'>
-            <div className='flex flex-col xl:flex-row items-center justify-evenly mx-auto w-[95%] 2xl:w-[85%] bg-secondery px-[20px] py-10 md:py-20 md:px-[45px] lg:px-[55px] xl:px-[50px] 2xl:px-[105px] rounded-2xl shadow-2xl gap-10 '>
+            <div className='flex flex-col xl:flex-row items-center justify-evenly mx-auto w-[95%] 2xl:max-w-[1492px] bg-secondery px-[20px] py-10 md:py-20 md:px-[45px] lg:px-[55px] xl:px-[50px] rounded-2xl shadow-2xl gap-10 '>
                 <div className='font-secondery'>
                     <h1 className='text-[40px] md:text-[50px] 2xl:text-[55px] font-bold text-white mb-4 md:mb-6'>Hi, I'm <span className='color-gradient'>Yeamin Foysal</span></h1>
                     <h1 className='text-white text-[30px]  md:text-[38px] font-[600] mb-6 md:mb-8'>a <span> Front end web developer</span></h1>

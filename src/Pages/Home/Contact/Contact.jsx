@@ -36,7 +36,7 @@ const Contact = () => {
     };
 
     return (
-        <div id='contact' className='section py-20 text-center w-[95%] lg:w-[80%] mx-auto'>
+        <div id='contact' className='section py-20 text-center w-[95%] lg:w-[80%] 2xl:max-w-[1492px] mx-auto'>
             <p className='color-main uppercase font-secondery'>Contact With Me</p>
             <h1 className='text-[60px] font-[700] color-gradient'>Contact</h1>
             <div className='grid grid-cols-1 xl:grid-cols-3 text-left mt-14 gap-10'>

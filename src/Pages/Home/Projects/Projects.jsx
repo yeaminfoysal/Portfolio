@@ -6,7 +6,7 @@ import eduhaven from '../../../assets/Projects/eduhaven.png'
 
 const Projects = () => {
     return (
-        <div id='projects' className='section py-20 text-center w-[95%] lg:w-[80%] mx-auto'>
+        <div id='projects' className='section py-20 text-center w-[95%] lg:w-[80%] 2xl:max-w-[1492px] mx-auto'>
             <p className='color-main uppercase font-secondery'>Here is a sample of projects I've worked on.</p>
             <h1 className='text-[60px] font-[700] color-gradient'>Selected projects</h1>
             <div className='flex flex-col mt-10 gap-16'>

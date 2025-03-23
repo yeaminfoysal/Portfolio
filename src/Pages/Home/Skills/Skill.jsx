@@ -11,7 +11,7 @@ const Skill = () => {
         <div id='skills' className='section text-center py-20 overflow-hidden'>
             <p className='color-main uppercase font-secondery'>See my expertise</p>
             <h1 className='text-[60px] font-[700] color-gradient'>My Skills </h1>
-            <div className='grid grid-cols-1 md:grid-cols-3 xl:grid-cols-6 w-[80%] mx-auto items-center mt-14 gap-8'>
+            <div className='grid grid-cols-1 md:grid-cols-3 xl:grid-cols-6 w-[80%] 2xl:max-w-[1492px] mx-auto items-center mt-14 gap-8'>
                 <div className='mx-auto'>
                     <div className='flex flex-col items-center gap-16 w-fit py-16 px-14 md:px-8 lg:px-12 xl:px-9  2xl:px-14 bg-secondery rounded-full border border-main shadow-box'>
                         <div>

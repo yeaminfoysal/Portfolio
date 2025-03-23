@@ -33,7 +33,7 @@ const ProjectDetails3 = () => {
 
     return (
         <div className="bg-main py-20">
-            <div className='bg-secondery w-[95%] lg:w-[70%] mx-auto rounded-2xl shadow-xl shadow-[#000000] p-14 relative'>
+            <div className='bg-secondery w-[95%] lg:w-[80%] 2xl:max-w-[1492px] mx-auto rounded-2xl shadow-xl shadow-[#000000] p-14 relative'>
                 <div>
                     <img className='rounded-2xl' src={fundbridge1} alt="" />
                 </div>
@@ -51,10 +51,7 @@ const ProjectDetails3 = () => {
                         </button>
                     </div>
                 </div>
-                <div>
-                    <hr className='border-[#030303]' />
-                </div>
-                <div className='flex gap-10 items-center flex-col lg:flex-row lg:justify-between mt-10'>
+                <div className='flex gap-10 items-center flex-col lg:flex-row lg:justify-between mt-10 md:items-start'>
                     <div>
                         <h4 className='text-xl font-bold mb-6'>Features</h4>
                         <p className='leading-[1.9] color-desc'>Features of this website are shortly described:</p>
